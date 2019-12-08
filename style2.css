@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+}
+
+.img1 {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.div {
+    width: 960px;
+}
+
+.portfolio {
+    float: left;
+    position: relative;
+    margin: 10pt 40pt 10pt 0;
+    width: 32%;
+}
+
+.text {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px 0px;
+    text-align: center; 
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 3;
+    position: absolute;
+    bottom: 20pt;
+    left: 0;
+    width: 100%;
+}

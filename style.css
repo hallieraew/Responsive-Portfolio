@@ -1,0 +1,89 @@
+body {
+    background-image: url(../images/irongrip/irongrip.png);
+}
+
+header {
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: #cccccc;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    top: 0px;
+}
+
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.h1 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    margin-left: 200px;
+    float: left;
+
+}
+
+nav {
+    color: #777777;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    float: right;
+    margin: 15px 20px 0px 20px;
+}
+
+.right {
+    margin-right: 250px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+li a:visited {
+    color: #777777;
+}
+
+
+.main {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px 40px 40px 40px;
+}
+
+hr {
+    color: #666666;
+}
+.aboutMe {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    border-top: 8px solid #4AAAA5;
+    position: sticky;
+    background-color: #666666;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.pfoot {
+    margin-bottom: 5px;
+}
