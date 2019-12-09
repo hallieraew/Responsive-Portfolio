@@ -27,3 +27,16 @@ form {
 .foot {
     margin-top: 200px;
 }
+
+@media screen and (max-width: 640px) {
+
+.text
+.line {
+   width:380px;
+}
+
+form {
+    width:100%;
+}
+
+}

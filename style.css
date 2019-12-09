@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/irongrip/irongrip.png);
+    background-image: url(../../../Basic-Portfolio/assets/images/irongrip/irongrip.png);
 }
 
 header {
@@ -58,6 +58,11 @@ li a:visited {
     color: #777777;
 }
 
+li a:active {
+    color: #777777;
+    text-decoration: none;
+}
+
 
 .main {
     background-color: #ffffff;
@@ -86,4 +91,36 @@ footer {
 
 .pfoot {
     margin-bottom: 5px;
+}
+
+@media screen and (max-width: 980px) {
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+nav {
+    position:static;
+}
+
+.h1 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    margin: 0 auto;
+    text-align: center;
+}
+
 }
