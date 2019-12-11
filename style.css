@@ -1,5 +1,6 @@
 body {
     background-image: url(../../../Basic-Portfolio/assets/images/irongrip/irongrip.png);
+    box-sizing: border-box;
 }
 
 header {
@@ -34,7 +35,6 @@ nav {
     float: right;
     margin: 0px;
     padding: 20px;
-    /* width: 100%; */
 }
 
 .li {
@@ -67,8 +67,7 @@ li a:active {
 .main {
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 960px;
-    margin: 40px auto;
+    margin: 100px;
     padding: 20px 40px 40px 40px;
 }
 
@@ -94,44 +93,71 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-
-
-
+    .h1 {
+        margin-left:30px;
+    }
+    .left {
+        margin-left: 250px;
+    }
+    .main {
+        margin-left: 10px;
+        width: 60%
+    }
 }
 
 @media screen and (max-width: 768px) {
 
-
+    .h1 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .nav {
+        display:block;
+        padding: 
+    }
+    li {
+        margin: 20px auto;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    .left {
+        margin:0px;
+    }
+    
+    .main {
+        margin: 20px auto;
+    }
 
 }
 
 
 @media screen and (max-width: 640px) {
-nav {
-    position:static;
-}
 
 .h1 {
     display: block;
     margin: 0 auto;
-    /* width: 100%; */
     text-align: center;
-    margin: 0 0 20px 0;
+    width: 100%;
+    padding:20px 0;
 }
 
-li {
+header,
+.nav,
+ {
     margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
 }
 
 .left {
-    margin:0px;
+    margin-left: 100px;
+    width: 100%;
+    text-align: center;
 }
 
-ul {
-    display:block;
+.main {
+    margin-top: 50px;
 }
-
 }

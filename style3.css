@@ -1,5 +1,5 @@
 form {
-    width: 960px;
+    width: 100%;
     overflow: auto;
 }
 
@@ -10,8 +10,10 @@ form {
 }
 
 .line {
-    width: 900px;
+    width: 100%;
     padding: 5px;
+    border-width: thin;
+    border-color: #777777;
 }
 
 .submit {
@@ -28,6 +30,19 @@ form {
     margin-top: 200px;
 }
 
+@media screen and (max-width: 980px) {
+    .line {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+
+.text
+.line {
+   width:380px;
+}
+
+}
 @media screen and (max-width: 640px) {
 
 .text

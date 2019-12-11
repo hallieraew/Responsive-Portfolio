@@ -15,7 +15,7 @@ body {
 }
 
 .div {
-    width: 960px;
+    margin: 0 auto;
 }
 
 .portfolio {
@@ -37,4 +37,24 @@ body {
     bottom: 20pt;
     left: 0;
     width: 100%;
+}
+
+@media screen and (max-width:980px) {
+.img1 {
+    width: 100%;
+}
+.div {
+    display: inline;
+}
+
+}
+
+@media screen and (max-width:640px) {
+    .portfolio {
+        width: 100%;
+    }
+    .div {
+        margin: 0 auto;
+    }
+
 }

@@ -25,6 +25,16 @@
     line-height: 2;
 }
 
+@media screen and (max-width: 980px) {
+    .me {
+        width: 45%;
+    }
+    .about1 {
+        margin-right: 0;
+        width: 45%;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .about1,
     .me {
