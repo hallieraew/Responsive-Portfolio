@@ -52,7 +52,10 @@ nav {
 
 a:link {
     text-decoration: none;
-    color: #777777;
+}
+
+li a:link{
+    color:#777777;
 }
 
 li a:visited {
