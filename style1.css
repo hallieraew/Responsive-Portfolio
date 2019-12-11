@@ -35,12 +35,24 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .me {
+        width: 45%;
+    }
+    .about1 {
+        margin-right: 0;
+        width: 45%;
+    }
+}
+
+
 @media screen and (max-width: 640px) {
     .about1,
     .me {
         width: 100%;
         margin: 0 auto;
         padding-left: 0;
+        float:none;
 
     }
 }

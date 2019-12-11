@@ -43,23 +43,43 @@ body {
 .img1 {
     width: 40%;
 }
-.div {
-    display: inline;
-}
 
 .portfolio {
     float:none;
-    display:inline;
+    display: inline;
 }
 
 }
+
+@media screen and (max-width:768px) {
+    .img1 {
+        width: 40%;
+    }
+    
+    .portfolio {
+        float:none;
+        display: inline;
+    }
+    
+    }
 
 @media screen and (max-width:640px) {
     .portfolio {
-        width: 100%;
-    }
-    .div {
+        float:none;
+        display:inline;
         margin: 0 auto;
+        padding: 5px;
+    }
+    .img1 {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .text {
+        width: 94%;
+        bottom: 40pt;
+        left: 15px;
+        text-align: center;
     }
 
 }
