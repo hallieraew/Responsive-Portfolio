@@ -21,20 +21,11 @@
         width: 45%;
         float:left;
     }
-    .about1 {
-        margin-right: 0;
-        width: 45%;
-    }
 }
 
 @media screen and (max-width: 768px) {
-    .me {
-        float:left;
-        width:30%;
-    }
     .about1 {
-        margin-right: 0;
-        width: 45%;
+        font-size: 25%:
     }
 }
 
