@@ -29,8 +29,8 @@
 
 @media screen and (max-width: 768px) {
     .me {
-        width: 45%;
         float:left;
+        width:30%;
     }
     .about1 {
         margin-right: 0;

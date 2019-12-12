@@ -124,7 +124,7 @@ footer {
     
     .main {
         margin: 30px auto;
-        width: 645px;
+        width: 80%;
     }
 
 }
@@ -138,6 +138,7 @@ footer {
     text-align: center;
     width: 100%;
     padding:20px 0;
+    margin-bottom: 10px;
 }
 
 header,
@@ -147,7 +148,6 @@ header,
 }
 
 .left {
-    margin-left: 100px;
     width: 100%;
     text-align: center;
 }
