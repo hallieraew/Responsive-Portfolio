@@ -73,7 +73,7 @@ li a:active {
     font-family: Arial, Helvetica, sans-serif;
     margin: 100px;
     padding: 20px 40px 40px 40px;
-    width: 80%;
+    /* width: 100%; */
 }
 
 hr {

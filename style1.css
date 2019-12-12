@@ -2,7 +2,6 @@
     padding: 10px;
     float: left;
     overflow: auto;
-    width: 25%;
     margin-top: 20px;
 }
 
@@ -10,24 +9,17 @@
     color: #777777;
     font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
-    float: right;
-    display: inline-block;
-    margin-right: 20px;
-    width: 70%;
     line-height: 2;
+    margin-top: 25px;
+    margin-left: 15px;
 }
 
-.about2 {
-    color: #777777;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    line-height: 2;
-}
+
 
 @media screen and (max-width: 980px) {
     .me {
         width: 45%;
+        float:left;
     }
     .about1 {
         margin-right: 0;
@@ -38,6 +30,7 @@
 @media screen and (max-width: 768px) {
     .me {
         width: 45%;
+        float:left;
     }
     .about1 {
         margin-right: 0;
@@ -52,7 +45,7 @@
         width: 100%;
         margin: 0 auto;
         padding-left: 0;
-        float:none;
+        float:left;
 
     }
 }
